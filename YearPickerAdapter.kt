@@ -45,9 +45,6 @@ class YearPickerAdapter: RecyclerView.Adapter<YearPickerAdapter.ViewHolder>() {
         fun update(age: Int) {
             with(item) {
                 if ((min..max).contains(age)) {
-                    val am = BaseApplication.INSTANCE.assets
-                    val typeface = Typeface.createFromAsset(am, "font/softline.otf")
-                    textview_age.typeface = typeface
                     textview_age.text = age.toString()
                 } else
                     textview_age.text = ""
