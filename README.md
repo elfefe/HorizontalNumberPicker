@@ -6,7 +6,7 @@ An horizontal Number picker for android.
 
 Import YearPicker, YearPickerAdapter and Utils in your android project to use the numberPicker.
 
- You can custom them as you want.
+ You can custom it as you want.
 
 ## Usage
 
